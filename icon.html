@@ -1,0 +1,63 @@
+<body>
+<section clss="icons">
+    <div class="icon star glow"></div>
+    <div class="icon cup"></div>
+    <div class="icon skull glow"></div>
+</section>
+<style>
+@-webkit-keyframes glow {
+    0%   {box-shadow: 0 0 2px 0 red;}
+    50%  {box-shadow: 5 5 10px 0 orange;}
+    100% {box-shadow: 0 0 2px 0 yellow;}
+}
+
+body {
+    -webkit-perspective: 400px;
+    -webkit-perspective-origin: 50% 150px;
+}
+
+section {
+    height: 300px;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform: translateZ(-300px) rotateY(-25deg) ;
+}
+
+.glow {
+    box-shadow: 0 0 20px 0 red;
+    -webkit-animation-name: glow;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.icon {
+    position: absolute;
+
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    background-position: -4px -4px;
+}
+
+.star {
+    top: 30px;
+    left: 400px;
+
+    background-image: url('assets/image/star-icon.png');
+}
+
+.cup {
+    top: 50px;
+    left: 200px;
+
+    background-image: url('assets/image/cup-icon.png');
+}
+
+.skull {
+    top: 40px;
+    left: 700px;
+
+    background-image: url('assets/image/skull-icon.png');
+}
+</style>
+</body>
+

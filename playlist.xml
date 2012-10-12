@@ -1,0 +1,5 @@
+<playlist path="/media">
+    <!--<item type="video" mime="video/webm" tag="">TaeYeon ( SNSD ) - Hush Hush; Hush Hush(720p_VP8-Vorbis).webm</item>-->
+    <item type="video" mime="video/mp4" tag="">TaeYeon ( SNSD ) - Take A Bow (Jun 1, 2012)(720p_H.264-AAC).mp4</item>
+    <item type="video" mime="video/mp4" tag="">Tiffany ( SNSD ) - Umbrella(720p_H.264-AAC).mp4</item>
+</playlist>

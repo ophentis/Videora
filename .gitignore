@@ -1,0 +1,6 @@
+._*
+.Apple*
+.DS_Store
+*Thumbs.db
+media/*
+!.gitignore
